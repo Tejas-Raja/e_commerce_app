@@ -1,16 +1,11 @@
-# adidas_app
+# Mini Flutter E-commerce app
 
-A new Flutter project.
+A minimalistic E-Commerce app made with flutter
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div class="image-holder" display="flex" flex-wrap="wrap">
+  <img src="lib/images/app/Screenshot_1735471855.png" width="180" height="400">
+  <img src="lib/images/app/Screenshot_1735471882.png" width="180" height="400">
+  <img src="lib/images/app/Screenshot_1735471887.png" width="180" height="400">
+  <img src="lib/images/app/Screenshot_1735471890.png" width="180" height="400">
+  <img src="lib/images/app/Screenshot_1735471901.png" width="180" height="400">
+</div>
