@@ -62,7 +62,7 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.grey.shade300,
                   ),
                 ),
-                const Padding(
+                Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     leading: Icon(
@@ -75,6 +75,13 @@ class _HomePageState extends State<HomePage> {
                         color: Colors.grey,
                       ),
                     ),
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => HomePage(),
+                          ));
+                    },
                   ),
                 ),
                 const Padding(
@@ -94,7 +101,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
-            const Padding(
+            Padding(
               padding: EdgeInsets.only(left: 25.0, bottom: 25),
               child: ListTile(
                 leading: Icon(
@@ -107,6 +114,14 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.grey,
                   ),
                 ),
+                onTap: () {
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => IntroPage(),
+                    ),
+                  );
+                },
               ),
             ),
           ],
