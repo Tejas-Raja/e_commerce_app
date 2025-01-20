@@ -1,3 +1,4 @@
+import 'package:adidas_app/pages/about_page.dart';
 import 'package:adidas_app/pages/cart_page.dart';
 import 'package:adidas_app/pages/intro_page.dart';
 import 'package:adidas_app/pages/shop_page.dart';
@@ -84,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                     },
                   ),
                 ),
-                const Padding(
+                Padding(
                   padding: EdgeInsets.only(left: 25.0),
                   child: ListTile(
                     leading: Icon(
@@ -97,6 +98,13 @@ class _HomePageState extends State<HomePage> {
                         color: Colors.grey,
                       ),
                     ),
+                    onTap: () {
+                      Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => AboutPage(),
+                          ));
+                    },
                   ),
                 ),
               ],
